@@ -13,16 +13,24 @@ const mainContainer = document.getElementById("#content")
 
 function getSquare() {
     const newSquareElement = document.createElement('div')
+    
     newSquareElement.classList.add('square');
     return newSquareElement;
 }
 
-// crediamo un ciclo per inserire i quadrati e i numeri
+
+// creiamo un ciclo per inserire i quadrati e i numeri
 for (let i = 1; i <= 100; i++) {
 
+
     
-    mainContainer.appendChild(getSquare())
+    // newSquareElement.innerHTML += `<span> ${i} </span>`;
+    
+    content.appendChild(getSquare())
+
+    
 }
+
 
 
 
