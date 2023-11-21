@@ -41,6 +41,10 @@
     align-items: center;
 }
 
+.clicked {
+    background-color: rgb(29, 232, 232);
+}
+
 main {
     background-color:#7FFFD4;
     width: 100%;
