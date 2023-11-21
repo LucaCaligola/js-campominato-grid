@@ -36,8 +36,11 @@
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 main {
     background-color:#7FFFD4;
     width: 100%;

@@ -19,14 +19,15 @@ function getSquare() {
 }
 
 
+
 // creiamo un ciclo per inserire i quadrati e i numeri
 for (let i = 1; i <= 100; i++) {
 
 
+    let quadrati = getSquare();
+    quadrati.innerHTML += `<span> ${i} </span>`;
     
-    // newSquareElement.innerHTML += `<span> ${i} </span>`;
-    
-    content.appendChild(getSquare())
+    content.appendChild(quadrati)
 
     
 }
