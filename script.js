@@ -21,16 +21,21 @@ function getSquare() {
 
 
 
+
 // creiamo un ciclo per inserire i quadrati e i numeri
+button.addEventListener("click", function(){
 
+    mainContainer.innerHTML = '';
 
-// button.addEventListener("click", function(){
+    
     
     for (let i = 1; i <= 100; i++) {
 
+        
+
 
         let quadrati = getSquare();
-        quadrati.innerHTML += `<span> ${i} </span>`;
+        quadrati.innerHTML = `<span> ${i} </span>`;
         
         content.appendChild(quadrati)
 
@@ -43,7 +48,7 @@ function getSquare() {
 
         
     }
-// })
+})
 
 
 
